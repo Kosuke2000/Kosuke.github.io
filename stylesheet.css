@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+}
+header {
+  height: 30px;
+  width: 100%;
+  background-color: darkblue;
+}
+.btn-wrapper {
+  float: right;
+  margin-right: 40px;
+  background-color: rgba(49, 49, 141, 0.6);
+}
+.btn-wrapper a {
+  line-height: 30px;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+.btn-wrapper:hover {
+  background-color: rgba(49, 49, 141, 0.9);
+}
+.top-wrapper {
+  height: 500px;
+  background-color: rgb(64, 186, 235);
+  background-image: url(https://4.bp.blogspot.com/-HKsGFBq_vx8/VUIHlJKYbII/AAAAAAAAtPo/GCQAjYtluPM/s800/4_chuubu6_fukui.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+.top-wrapper-container h1 {
+  margin: 0;
+  font-size: 150px;
+  letter-spacing: 20px;
+}
+.top-wrapper-container {
+  text-align: center;
+  padding-top: 90px;
+  background-color: rgba(238, 8, 8, 0.2);
+  height: 410px;
+}
+.top-wrapper-sentence {
+  padding-top: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 10;
+  margin: 0;
+}
+footer {
+  height: 100px;
+  background-color: rgba(209, 14, 14, 0.6);
+}
+.footer-img img {
+  height: 100px;
+}
+.footer-left {
+  height: 100px;
+  position: relative;
+  display: inline-block;
+  width: 50%;
+}
+.footer-left p {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  line-height: 100px;
+  margin: 0;
+  font-size: 50px;
+  font-weight: 100;
+}
+.footer-right {
+  float: right;
+  margin: 0;
+}
+.footer-right-btn p {
+  margin: 0;
+  line-height: 80px;
+  font-size: 30px;
+}
+.footer-right-btn {
+  background-color: #55acee;
+  height: 80px;
+  margin-top: 10px;
+  margin-right: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px #364e61;
+  cursor: pointer;
+}
+.footer-right-btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 8px;
+  background-color: white;
+}
+.footer-right-btn p {
+  color: white;
+}
+.footer-right-btn p:active {
+  color: #55acee;
+}
+.message-wrapper {
+  background-color: darkgrey;
+  height: 400px;
+  margin-top: 100px;
+}
+.message-message p {
+  margin: 0;
+  border-bottom: dotted 2px black;
+  padding: 10px;
+  padding-left: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.message-form {
+  float: left;
+  padding-left: 50px;
+}
+textarea {
+  width: 350px;
+  height: 100px;
+  font-size: 15px;
+}
+.contact {
+  display: block;
+  margin-top: 20px;
+  cursor: pointer;
+  color: white;
+  background-color: blue;
+  border: 2px solid blue;
+  border-radius: 5px;
+  transition: 1s;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.contact:hover {
+  background-color: white;
+  color: blue;
+  border: 2px solid white;
+}
+.message-form p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.food-wrapper {
+  margin-top: 70px;
+  padding: 0 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.food-image img {
+  height: 350px;
+}
+.food-container {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.food-image {
+  text-align: center;
+}
+.food-container p {
+  font-size: 20px;
+}
+.first-end-sentence p {
+  text-align: center;
+}
+.last-sentence {
+  margin-bottom: 70px;
+}
